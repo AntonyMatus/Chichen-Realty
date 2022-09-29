@@ -1643,6 +1643,9 @@ header.header-nav.menu_style_home_eight .ace-responsive-menu > li > a{
   padding: 33px 10px 30px;
   text-transform: uppercase;
 }
+.reduccion{width: 117px;}
+
+.reduccion-2{}
 header.header-nav.menu_style_home_one .ace-responsive-menu > li > a:before,
 header.header-nav.menu_style_home_five .ace-responsive-menu > li > a:before{
   background-color: #fff;
@@ -3050,6 +3053,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   right: -20%;
   top: 140px; 
 }
+
 .dd_content:before,
 .dd_content2:before{
   background-color: #ffffff;
@@ -13642,7 +13646,7 @@ textarea.form-control:focus,
   min-width: auto;
 }
 .listing_list_style .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
-  width: 122px;
+  width: 168px;
 }
 .sidebar_listing_list{
   border: 1px solid #E6E9EC;
