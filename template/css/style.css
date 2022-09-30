@@ -888,6 +888,7 @@ address {
 .home5_iconbox li {
   margin: 0 30px;
 }
+.diviciones{width: 200px; height: 112px;}
 .home5_iconbox li .icon{
   background-color: rgba(13, 39, 59, 0.5);
   border-radius: 50%;
@@ -4578,8 +4579,8 @@ form.listing_page_v9{
   color: #0D263B;
 }
 .home-one .home-text.home10 a.btn {
-  background-color: #006766;
-  border: 1px solid #006766;
+  background-color: #2D3B5C;
+  border: 1px solid #2D3B5C;
   border-radius: 3px;
   color: #ffffff;
   font-size: 13px;
@@ -6133,6 +6134,11 @@ form.listing_page_v9{
   text-transform: uppercase;
   width: 210px;
 }
+
+.btn-brochure {
+  border: 1px solid rgba(45, 59, 92, 1);
+  color: rgba(45, 59, 92, 1);
+}
 .btn-whatsapp{
   border: 1px solid #48C740;
   color: #48C740;
@@ -6616,7 +6622,7 @@ form.listing_page_v9{
   transform: scale(1.1) rotate(-1deg);
 }
 .explore_city.custom_class_service{
-  width: 47%;
+  width: 100%;
 }
 .explore_city.custom_class_service2,
 .explore_city.custom_class_service2 .thumb img{
@@ -7401,7 +7407,7 @@ form.listing_page_v9{
   height: 112px;
   line-height: 112px;
   margin: 0 auto;
-  width: 112px;
+  width: 250px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -7676,10 +7682,10 @@ form.listing_page_v9{
   margin-bottom: 0;
 }
 .parner_reg_btn a.btn{
-  background-color: #fff;
-  border: 1px solid #0061DF;
+  background-color: #0D263B;
+  border: 1px solid #0D263B;
   border-radius: 3px;
-  color: #0061DF;
+  color: #fff;
   font-size: 13px;
   font-weight: 600;
   height: 55px;
@@ -9053,7 +9059,7 @@ form.listing_page_v9{
 }
 /*== About Page About Content ==*/
 .about_content {
-  margin-top: 115px;
+  /* margin-top: 115px; */
   padding-left: 45px;
 }
 .about_content p.large {
@@ -12118,6 +12124,7 @@ textarea.form-control:focus,
   height: 80px;
   width: 80px;
 }
+.img-logo{width: 200px; height: 150px;}
 .sidebar_recent_product .media .media-body .post_title,
 .sidebar_feature_listing .media .media-body .post_title{
   color: #0D263B;
@@ -12128,7 +12135,7 @@ textarea.form-control:focus,
 }
 .sidebar_recent_product .media .media-body a,
 .sidebar_feature_listing .media .media-body a{
-  font-size: 16px;
+  font-size: 11px;
   font-family: Cerebri Sans;
   color: #696969;
   line-height: 25px;
@@ -15138,7 +15145,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
   width: 100% !important;
 }
 .text-thm {
-  color: #0061DF !important;
+  color: #2D3B5C !important;
 }
 .hvr-text-thm:hover {
   color: #0061DF !important;
@@ -15250,6 +15257,9 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
 }
 .bgc-dark {
   background-color: #0D263B;
+}
+.bgc-cyan{
+  background-color: #0061df85 !important;
 }
 .bgc-thm {
   background-color: #0061DF !important;
@@ -15538,8 +15548,8 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
   outline: none;
 }
 .btn-thm {
-  background-color: #0061DF;
-  border: 1px solid #0061DF;
+  background-color: #0D263B;
+  border: 1px solid #0D263B;
   border-radius: 3px;
   color: #ffffff;
   -webkit-transition: all 0.3s ease;
@@ -15547,6 +15557,20 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
   transition: all 0.3s ease;
   font-size: 13px; font-weight: 600; text-transform: uppercase;
 
+}
+
+.btn-blue-black{
+  background-color: rgba(13, 38, 59, 1);
+  border: 1px solid rgba(13, 38, 59, 1);
+  border-radius: 3px;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 13px; font-weight: 600; text-transform: uppercase;
+}
+.btn-blue-black:hover{
+  color: #fff;
 }
 
 .btn-thm.rounded {
@@ -15773,6 +15797,9 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
 .fz50 {
   font-size: 50px;
 }
+.fz58{
+  font-size: 58px;
+}
 .fz55 {
   font-size: 55px;
 }
@@ -15862,6 +15889,9 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
 }
 .h280 {
   height: 280px;
+}
+.h292 {
+  height: 292px;
 }
 .h300 {
   height: 300px;
@@ -19544,7 +19574,7 @@ button.gm-ui-hover-effect:focus {
   border-radius: 8px;
 }
 .divider_contact_form.home10 .wrapper .form_btn{
-  background-color: #006766;
+  background-color: #2D3B5C;
 }
 .divider_contact_form .wrapper label{
   color: #0D263B;
@@ -19592,7 +19622,7 @@ button.gm-ui-hover-effect:focus {
   padding: 200px 95px 0 100px;
 }
 .property_sell_home10{
-  padding: 200px 80px 0 100px;
+  padding: 200px 20px 0 100px;
 }
 .load_more_btn .btn{
   font-size: 13px;
