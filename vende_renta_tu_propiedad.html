@@ -63,7 +63,7 @@
       <nav class="d-flex">
         <!-- Menu Toggle btn-->
         <div class="menu-toggle">
-          <img class="nav_logo_img img-fluid" src="template/images/header-logo.svg" alt="header-logo.svg">
+          <img class="nav_logo_img img-fluid" src="template/images/logos/Recurso 2.svg" alt="header-logo.svg">
           <button type="button" id="menu-btn">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -71,9 +71,9 @@
           </button>
         </div>
         <a href="index.html" class="navbar_brand float-left dn-md">
-          <img class="logo1 img-fluid" src="template/images/header-logo2.svg" alt="header-logo.svg">
-          <img class="logo2 img-fluid" src="template/images/header-logo2.svg" alt="header-logo2.svg">
-          <span>Houzing</span>
+          <img class="logo1 img-fluid" src="template/images/logos/Recurso 2.svg" alt="header-logo.svg">
+          <img class="logo2 img-fluid" src="template/images/logos/Recurso 2.svg" alt="header-logo2.svg">
+          
         </a>
         <!-- Responsive Menu Structure-->
         <ul id="respMenu" class="ace-responsive-menu text-right " data-menu-style="horizontal">
@@ -92,8 +92,8 @@
                 <li><a href="index10.html">Home V10</a></li>
                 </ul>
             </li>
-            <li ><a class="reduccion" href="page-contact.html">Venta/Renta  Tu Propiedad</a></li>
-            <li ><a class="reduccion" href="page-contact.html">Desarrollos  Exclusivos</a></li>
+            <li ><a class="reduccion" href="#">Venta/Renta  Tu Propiedad</a></li>
+            <li ><a class="reduccion" href="desarrollos_exclusivos.html">Desarrollos  Exclusivos</a></li>
             <li ><a class="reduccion" href="page-contact.html">Propiedades  Premium</a></li>
             <li ><a class="reduccion" href="page-contact.html">Miami  Orlando</a></li>
             <li class="reduccion-2"><a href="page-contact.html">Nosotros</a></li>
@@ -112,7 +112,7 @@
 	<div id="page" class="stylehome1 h0">
     <div class="mobile-menu">
       <div class="header stylehome1">
-        <div class="main_logo_home2 text-center"><img class="nav_logo_img img-fluid mt10" src="images/header-logo.svg" alt="header-logo.svg"><span class="mt15"></span></div>
+        <div class="main_logo_home2 text-center"><img class="nav_logo_img img-fluid mt10" src="template/images/logos/Recurso 1.svg" alt="header-logo.svg"><span class="mt15"></span></div>
         <ul class="menu_bar_home2">
           <!-- <li class="list-inline-item"><a class="custom_search_with_menu_trigger msearch_icon" href="#"></a></li> -->
           <!-- <li class="list-inline-item"><a class="muser_icon" href="#" data-toggle="modal" data-target="#logInModal"><span class="flaticon-user"></span></a></li> -->
@@ -138,7 +138,7 @@
           </ul>
         </li>
         <li><a href="#">Venta/Renta  Tu Propiedad</a></li>
-        <li><a href="page-contact.html">Desarrollos  Exclusivos</a></li>
+        <li><a href="desarrollos_exclusivos.html">Desarrollos  Exclusivos</a></li>
         <li><a href="page-contact.html">Propiedades  Premium</a></li>
         <li><a href="page-contact.html">Miami  Orlando</a></li>
         <li><a href="page-contact.html">Nosotros</a></li>
@@ -193,7 +193,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ligula eu lectus vulputate porttitor sed feugiat nunc. Mauris ac consectetur ante, dapibus gravida tellus. Nullam aliquet eleifend dapibus. Cras sagittis, ex euismod lacinia tempor, lectus orci elementum augue, eget auctor metus ante sit amet velit.</p>
                     <p>Maecenas quis viverra metus, et efficitur ligula. Nam congue augue et ex congue, sed luctus lectus congue. Integer convallis condimentum sem. Duis elementum tortor eget condimentum tempor. Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero amet, laborum qui nulla quae alias tempora.</p>
                 </div>
-                <div class="row mt150 about_content">
+                <div class="row mt150 about_content movile-flex">
                     <div class="col-md-6 col-lg-4">
                         <div class="funfact_one text-center">
                             <div class="details">
@@ -250,8 +250,9 @@
                 <div class="form-group">
                   <select class="form-control form_control mt10" required>
                     <option >Tipo de oferta</option>
-                    <option value="1">VENTA</option>
-                    <option value="0">RENTA</option>
+                    <option value="0">PREVENTA</option>
+                    <option value="1">QUIERO VENDER MI PROPIEDAD</option>
+                    <option value="2">QUIERO RENTAR MI PROPIEDAD</option>
                   </select>
                 </div>
               </div>
@@ -259,8 +260,13 @@
                 <div class="form-group">
                   <select class="form-control form_control mt10" required>
                     <option >Tipo de propiedad</option>
-                    <option value="1">Casa</option>
-                    <option value="0">Departamento</option>
+                    <option value="0">Casa</option>
+                    <option value="1">Departamento</option>
+                    <option value="2">Townhouse</option>
+                    <option value="3">Terreno</option>
+                    <option value="4">Oficina</option>
+                    <option value="5">Locales comerciales</option>
+                    <option value="6">Villa</option>
                   </select>
                 </div>
               </div>
@@ -283,8 +289,10 @@
                 <div class="form-group">
                   <select class="form-control form_control mt10" required>
                     <option >Antiguedad</option>
-                    <option value="1">Casa</option>
-                    <option value="0">Departamento</option>
+                    <option value="0">A estrenar</option>
+                    <option value="1">3+ años</option>
+                    <option value="2">5+ años</option>
+                    <option value="3">10+ años</option>
                   </select>
                 </div>
               </div>
@@ -295,7 +303,7 @@
                   <textarea name="form_message" class="form-control required" rows="6" required placeholder="Mensaje"></textarea>
                 </div>
                 <div class="form-group mb0 d-flex justify-content-center">
-                  <button type="button" class="btn btn-thm">SUBMIT</button>
+                  <button type="button" class="btn btn-thm">ENVIAR</button>
                 </div>
               </div>
             </div>
@@ -310,49 +318,56 @@
   <section class="footer_one home1">
     <div class="container ">
       <div class="row">
-        <div class="col-md-3">
-          <div class="logo text-center"><img class="img-logo" src="template/images/footer-logo.svg" alt="footer-logo.svg" width="200"> <br>  <span class="logo_title text-white pl15">Houzing</span></div>
-        </div>
-        <div class="col-md-6">
-          <div class="footer_qlink_widget pl0">
-            <h4>Links Directos</h4>
-            <div class="row">
-              <div class="col">
-                <ul class="list-unstyled">
-                  <li><a href="#">Propiedades en Venta</a></li>
-                  <li><a href="#">Propiedades en Renta</a></li>
-                  <li><a href="#">Vende/Renta tu propiedad</a></li>
-                </ul>
-              </div>
-              <div class="col">
-                <ul class="list-unstyled">
-                  <li><a href="#">Desarrollos Exclusivos</a></li>
-                  <li><a href="#">Propiedades Premium</a></li>
-                  <li><a href="#">Miami/Orlando</a></li>
-                </ul>
-              </div>
-              <div class="col">
-                <ul class="list-unstyled">
-                  <li><a href="#">Broker</a></li>
-                  <li><a href="#">Nosotros</a></li>
-                  <li><a href="#">Blog</a></li>
-                </ul>
-              </div>
+        <div class="col-xxl-3 col-md-3">
+            <div class="footer_social_widget">
+                <h4>Subcríbete a nuestra revista digital</h4>
+                <p class="text-white mb30"><p>
+                <form class="footer_mailchimp_form">
+                <div class="form-row align-items-center mt70">
+                    <div class="col-auto">
+                    <input type="email" class="form-control" id="inlineFormInput" placeholder="Introduce tu email">
+                    <button type="submit" class="flaticon-email"></button>
+                    </div>
+                </div>
+                </form>
             </div>
-            
-          </div>
         </div>
-        <div class="col-md-3">
-          <div class="footer_contact_widget">
+        <div class="col-xxl-3 col-md-3">
+            <div class="footer_qlink_widget pl50">
+                <h4>Links Directos</h4>
+                <div class="row">
+                    <div class="col-md-8">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Propiedades</a></li>
+                            <li><a href="#">Desarrollos Exclusivos</a></li>
+                            <li><a href="#">Propiedades Premium</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">Broker</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-xxl-3 col-md-3">
+          <div class="footer_contact_widget pl30">
             <h4>Contactanos</h4>
             <ul class="list-unstyled">
-              <li class="text-white df"><span class="flaticon-map mr15"></span><a href="#">Calle 22A #317 entre 23 y 25, Montebello, 97133 Mérida, Yuc. </a></li>
+              <li class="text-white df"><span class="flaticon-map mr15"></span><a href="#">Calle 22A #317 entre 23 y 25, <br> Montebello, 97133 Mérida, Yuc. </a></li>
               <li class="text-white"><span class="flaticon-phone mr15"></span><a href="#">999 969 7229</a></li>
               <li class="text-white"><span class="flaticon-mail-inbox-app mr15"></span><a href="#">contacto@chichenrealty.com</a></li>
             </ul>
           </div>
           
         </div>
+        <div class="col-xxl-3 col-md-3">
+            <div class="logo text-center"><img class="img-logo" src="template/images/logos/Recurso 1.svg" alt="footer-logo.svg" width="200"> <br></div>
+          </div>
       </div>
     </div>
     <hr>
@@ -405,8 +420,7 @@
 <script src="template/js/progressbar.js"></script>
 <script src="template/js/slider.js"></script>
 <script src="template/js/timepicker.js"></script>
-<script src="template/https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM&callback=initMap"></script>
-<script src="template/js/googlemaps1.js"></script>
+
 <!-- Custom script for all pages --> 
 <script src="template/js/script.js"></script>
 </body>

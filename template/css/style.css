@@ -1299,9 +1299,16 @@ header.header-nav.menu_style_home_eight.navbar-scrolltofixed.stricky.animated{
 header.header-nav.menu_style_home_one  a.navbar_brand{
   margin-top: 20px;
 }
+
+header.header-nav.menu_style_home_one  a.navbar_brand .logo1, .logo2{
+  width: 112px;
+}
+
 header.header-nav.menu_style_home_one.stricky-fixed a.navbar_brand .logo1,
 header.header-nav.menu_style_home_four.stricky-fixed a.navbar_brand .logo1{
   display: none;
+  width: 112px;
+  
 }
 header.header-nav.menu_style_home_one.stricky-fixed a.navbar_brand .logo2,
 header.header-nav.menu_style_home_four.stricky-fixed a.navbar_brand .logo2{
@@ -7413,6 +7420,10 @@ form.listing_page_v9{
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+.why_chose_us .icon #propiedades_premium{
+  height: 122px;
+}
 .why_chose_us .icon span{
   color: #234DD4;
   font-size: 50px;
@@ -7594,7 +7605,7 @@ form.listing_page_v9{
   color: #FFBC01;
 }
 .why_chose_us.home10:hover .icon{
-  background-color: #FFBC01;
+  background-color: #fff;
 }
 .why_chose_us.home10:hover .icon span{
   color: #fff;
@@ -8401,7 +8412,7 @@ form.listing_page_v9{
   color: #8a99b3;
 }
 .footer_mailchimp_form button{
-  background-color: #0061DF;
+  background-color: #2D3B5C;
   border-radius: 3px;
   border: none;
   color: #fff;
@@ -8481,7 +8492,7 @@ form.listing_page_v9{
 .footer_one.home1:before,
 .footer_one.home3:before,
 .footer_one.home6:before{
-  background-image: url(../images/icons/footer-bg.svg);
+  
   background-repeat: no-repeat;
   bottom: 0;
   content: "";
@@ -17087,7 +17098,7 @@ section {
   color: #ffffff; }
 .scrollToHome {
   border-radius: 3px;
-  background-color: #0061DF;
+  background-color: #424F6C;
   bottom: 15px;
   color: #ffffff;
   display: none;

@@ -315,7 +315,7 @@
 	.mobile-menu .header_user_notif li.user_setting .btn.dropdown-toggle:after{display: none;}
 	.header_user_notif li.user_setting .btn span{display: none;}
 	.stylehome1 .nav_logo_img,
-	.stylehome1.dashbord_mobile_logo .nav_logo_img{position: relative;}
+	.stylehome1.dashbord_mobile_logo .nav_logo_img{position: relative; width: 100px;}
 	.alpha-pag ul.option-set li{margin-bottom: 10px;}
 	
 
@@ -470,7 +470,8 @@
 	header.header-nav.menu_style_home_one a.navbar_brand span,
 	header.header-nav.menu_style_home_one.style2 a.navbar_brand span{font-size: 24px;margin-top: 3px;}
 	header.header-nav.menu_style_home_one.home6_style .ace-responsive-menu.widget_menu_home2 li a{padding: 23px 10px;}
-	.about_content{margin-top: 0;padding-left: 0;}
+	.about_content{margin-top: 20px;padding-left: 0;}
+	.property_sell_home10{padding: 0;}
 	.home_content.home1.custom_width.home4{width: 94%;}
 	.home_content.home6.custom_width,
 	.paralax_home_search_content.custom_width{width: 102%;}
@@ -608,6 +609,8 @@
 	.icon_box_hiw .icon.middle:after {display: none;}
 	.our-dashbord:before {width: 48%;}
 	.login_form,.footer_about_widget,.footer_qlink_widget,.main_blog_post_content,.footer_contact_widget,.footer_social_widget {margin-bottom: 30px;}
+	.pl30{padding-left: 0 !important;}
+	.movile-flex{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; }
 
 
 
