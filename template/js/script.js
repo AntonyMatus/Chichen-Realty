@@ -506,7 +506,7 @@
     if($('.testimonial_slider_home1').length){
         $('.testimonial_slider_home1').owlCarousel({
             loop:true,
-            margin:0,
+            margin:20,
             dots:true,
             nav:false,
             rtl:false,
@@ -542,7 +542,7 @@
                     items: 3
                 },
                 1200: {
-                    items: 4
+                    items: 3
                 }
             }
         })

@@ -4180,7 +4180,7 @@ form.listing_page_v9{
   z-index: 9;
 }
 .property_sp3_slider.psp_v5 .owl-controls .owl-nav{
-  top: 85%;
+  top: 50%;
 }
 .main-banner-wrapper .carousel-btn-block .carousel-btn,
 .listing_single_property_slider .owl-controls .owl-nav .owl-prev,
@@ -4240,10 +4240,10 @@ form.listing_page_v9{
   width: 45px;
 }
 .property_sp3_slider.psp_v5 .owl-controls .owl-nav .owl-prev{
-  right: 90px;
+  left: 90px;
 }
 .property_sp3_slider.psp_v5 .owl-controls .owl-nav .owl-next{
-  right: 30px;
+  right: 90px;
 }
 .property_sp3_slider.psp_v4 .owl-controls .owl-nav .owl-prev,
 .property_sp3_slider.psp_v4 .owl-controls .owl-nav .owl-next{
@@ -7682,7 +7682,7 @@ form.listing_page_v9{
   box-shadow: 0px 0px 50px 0px rgba(19, 19, 28, 0.12);
 }
 .start_partner h2{
-  color: #ffffff;
+  color: #0D263B;
   font-weight: 600;
   line-height: 2.375rem;
   margin-bottom: 15px;
@@ -17414,6 +17414,7 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 600px;
 }
 .divider.home-style3{
   background-attachment: fixed;
@@ -17454,7 +17455,7 @@ section {
   line-height: 45px;
 }
 .business_exposer .exposer_btn{
-  background-color: #0061DF;
+  background-color: #0D263B;
   border-radius: 3px;
   color: #ffffff;
   font-weight: 600;
