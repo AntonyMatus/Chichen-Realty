@@ -13,7 +13,7 @@
 <!-- Responsive stylesheet -->
 <link rel="stylesheet" href="template/css/responsive.css">
 <!-- Title -->
-<title>Vende/Renta tu propiedad | Chichen Realty</title>
+<title>Broker | Chichen Realty</title>
 <!-- Favicon -->
 <link href="template/images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
 <link href="template/images/favicon.ico" sizes="128x128" rel="shortcut icon" />
@@ -80,23 +80,14 @@
             <li ><a class="reduccion-2" href="#">Propiedades</a>
                 <!-- Level Two-->
                 <ul>
-                <li><a href="index.html">Home V1</a></li>
-                <li><a href="index2.html">Home V2</a></li>
-                <li><a href="index3.html">Home V3</a></li>
-                <li><a href="index4.html">Home V4</a></li>
-                <li><a href="index5.html">Home V5</a></li>
-                <li><a href="index6.html">Home V6</a></li>
-                <li><a href="index7.html">Home V7</a></li>
-                <li><a href="index8.html">Home V8</a></li>
-                <li><a href="index9.html">Home V9</a></li>
-                <li><a href="index10.html">Home V10</a></li>
+                <li><a href="propiedades.html">Home V1</a></li>
+                <li><a href="propiedades.html">Home V2</a></li>
                 </ul>
             </li>
-            <li ><a class="reduccion" href="#">Venta/Renta  Tu Propiedad</a></li>
+            <li ><a class="reduccion" href="vende_renta_tu_propiedad.html">Venta/Renta  Tu Propiedad</a></li>
             <li ><a class="reduccion" href="desarrollos_exclusivos.html">Desarrollos  Exclusivos</a></li>
-            <li ><a class="reduccion" href="page-contact.html">Propiedades  Premium</a></li>
+            <li ><a class="reduccion" href="propiedades_premium.html">Propiedades  Premium</a></li>
             <li ><a class="reduccion" href="page-contact.html">Miami  Orlando</a></li>
-            <li class="reduccion-2"><a href="page-contact.html">Nosotros</a></li>
             <li class="reduccion-2"><a href="page-contact.html">Blog</a></li>
             <li class="reduccion-2"><a href="page-contact.html">Contacto</a></li>
             <!-- <li class="list-inline-item list_c"><a href="#"><span class="flaticon-phone mr7"></span><span>(+999) 123 4567</span></a></li>
@@ -125,21 +116,13 @@
       <ul>
         <li><span>Prpiedades</span>
           <ul>
-            <li><a href="index.html">Home V1</a></li>
-            <li><a href="index2.html">Home V2</a></li>
-            <li><a href="index3.html">Home V3</a></li>
-            <li><a href="index4.html">Home V4</a></li>
-            <li><a href="index5.html">Home V5</a></li>
-            <li><a href="index6.html">Home V6</a></li>
-            <li><a href="index7.html">Home V7</a></li>
-            <li><a href="index8.html">Home V8</a></li>
-            <li><a href="index9.html">Home V9</a></li>
-            <li><a href="index10.html">Home V10</a></li>
+            <li><a href="propiedades.html">Venta</a></li>
+            <li><a href="propiedades.html">Renta</a></li>
           </ul>
         </li>
-        <li><a href="#">Venta/Renta  Tu Propiedad</a></li>
+        <li><a href="vende_renta_tu_propiedad.html">Venta/Renta  Tu Propiedad</a></li>
         <li><a href="desarrollos_exclusivos.html">Desarrollos  Exclusivos</a></li>
-        <li><a href="page-contact.html">Propiedades  Premium</a></li>
+        <li><a href="propiedades_premium.html">Propiedades  Premium</a></li>
         <li><a href="page-contact.html">Miami  Orlando</a></li>
         <li><a href="page-contact.html">Nosotros</a></li>
         <li><a href="page-contact.html">Blog</a></li>
@@ -157,10 +140,10 @@
 			<div class="row justify-content-center">
 				<div class="col-xl-8">
 					<div class="breadcrumb_content">
-						<h2 class="breadcrumb_title">¡Te ayudamos a Vender / Rentar tu propiedad!</h2>
+						<h2 class="breadcrumb_title">¡Sé parte de nuestro equipo!</h2>
 						<ol class="breadcrumb">
 					    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-					    <li class="breadcrumb-item active" aria-current="page">Vende - Renta tu propiedad</li>
+					    <li class="breadcrumb-item active" aria-current="page">Broker</li>
 						</ol>
 					</div>
 				</div>
@@ -238,6 +221,11 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
+                  <input name="form_name" class="form-control" required="required" type="text" placeholder="Nombre de Empresa">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
                   <input name="form_email" class="form-control required email" required="required" type="email" placeholder="Email">
                 </div>
               </div>
@@ -248,56 +236,23 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <select class="form-control form_control mt10" required>
-                    <option >Tipo de oferta</option>
-                    <option value="0">PREVENTA</option>
-                    <option value="1">QUIERO VENDER MI PROPIEDAD</option>
-                    <option value="2">QUIERO RENTAR MI PROPIEDAD</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <select class="form-control form_control mt10" required>
-                    <option >Tipo de propiedad</option>
-                    <option value="0">Casa</option>
-                    <option value="1">Departamento</option>
-                    <option value="2">Townhouse</option>
-                    <option value="3">Terreno</option>
-                    <option value="4">Oficina</option>
-                    <option value="5">Locales comerciales</option>
-                    <option value="6">Villa</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input name="form_ubicacion" class="form-control required ubicacion" required="required" type="text" placeholder="Ubicación">
+                  <input name="form_ciudad" class="form-control required ciudad" required="required" type="text" placeholder="Ciudad">
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="form-group">
-                  <input name="form_terreno" class="form-control required terreno" required="required" type="text" placeholder="Terreno (m2)">
+                    <input name="form_exp" class="form-control required exp" required="required" type="text" placeholder="Años de Experiencia">
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="form-group">
-                  <input name="form_construccion" class="form-control required construccion" required="required" type="text" placeholder="Construcción (m2)">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
                   <select class="form-control form_control mt10" required>
-                    <option >Antiguedad</option>
-                    <option value="0">A estrenar</option>
-                    <option value="1">3+ años</option>
-                    <option value="2">5+ años</option>
-                    <option value="3">10+ años</option>
+                    <option >Certificaciones</option>
+                    <option value="0">SI</option>
+                    <option value="1">NO</option>
                   </select>
                 </div>
               </div>
-
-
               <div class="col-sm-12">
                 <div class="form-group">
                   <textarea name="form_message" class="form-control required" rows="6" required placeholder="Mensaje"></textarea>
@@ -338,14 +293,14 @@
                 <div class="row">
                     <div class="col-md-8">
                         <ul class="list-unstyled">
-                            <li><a href="#">Propiedades</a></li>
-                            <li><a href="#">Desarrollos Exclusivos</a></li>
-                            <li><a href="#">Propiedades Premium</a></li>
+                            <li><a href="propiedades.html">Propiedades</a></li>
+                            <li><a href="desarrollos_exclusivos.html">Desarrollos Exclusivos</a></li>
+                            <li><a href="propiedades_premium.html">Propiedades Premium</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <ul class="list-unstyled">
-                            <li><a href="broker.html">Broker</a></li>
+                            <li><a href="#">Broker</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Contacto</a></li>
                         </ul>

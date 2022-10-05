@@ -611,6 +611,7 @@
 	.login_form,.footer_about_widget,.footer_qlink_widget,.main_blog_post_content,.footer_contact_widget,.footer_social_widget {margin-bottom: 30px;}
 	.pl30{padding-left: 0 !important;}
 	.movile-flex{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; }
+	.h70-movile {height: 70px;}
 
 
 

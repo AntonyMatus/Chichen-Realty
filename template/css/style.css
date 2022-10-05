@@ -11063,7 +11063,7 @@ a.btn_error{
   color: #696969;
   line-height: 24px;
 }
-.terms_condition_widget{
+.terms_condition_widget {
   border: 1px solid #E6E9EC;
   border-radius: 3px;
   margin-bottom: 30px;
@@ -11074,6 +11074,19 @@ a.btn_error{
   -o-box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
   box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
 }
+
+.terms_condition_widget2{
+  border: 1px solid #E6E9EC;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+  -moz-box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+  -o-box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+  box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+  height: 250px;
+}
+
 .blog_search_widget .title,
 .terms_condition_widget .title{
   font-size: 16px;
@@ -12139,7 +12152,7 @@ textarea.form-control:focus,
 .sidebar_recent_product .media .media-body .post_title,
 .sidebar_feature_listing .media .media-body .post_title{
   color: #0D263B;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 22px;
   margin-bottom: 0;
@@ -15973,6 +15986,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
 .w100 {
   width: 100% !important;
 }
+.w100-h250{ width: 100%; height: 250px;}
 .w110 {
   width: 110px;
 }
