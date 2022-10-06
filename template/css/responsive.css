@@ -612,6 +612,7 @@
 	.pl30{padding-left: 0 !important;}
 	.movile-flex{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; }
 	.h70-movile {height: 70px;}
+	.w100-h500{height: auto;}
 
 
 
@@ -1301,7 +1302,7 @@
 	.order_key_status li span,.order_key_status li:last-child span{margin-left: 15px;}
 	.footer_apps_widget .mailchimp_form button{position: relative;}
 	.blog_single_post_heading .contents{top: 150px;}
-	.blog_post_share{text-align: left !important;}
+	.blog_post_share{text-align: center !important;}
 	.sspd_review{float: none !important;margin-top: 10px;}
 	.sspd_review ul{padding-left: 0;}
 	.single_property_title .media{display: block;}
