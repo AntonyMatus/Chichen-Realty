@@ -397,7 +397,8 @@
 	.agent_single{display: block;}
 	.agent_single .thumb{margin-bottom: 30px;width: 100%;}
 	.ff_one{text-align: center;}
-	.ff_one .icon{display: inline-block;margin: 0 auto 20px;}
+	.ff_one .icon{display: inline-block;margin: 0  20px;}
+	.details2{padding-left: 70px;}
 	.recent_job_activity .grid ul li{vertical-align: unset;}
 	.inbox_user_list ul li.contact .wrap .meta{display: block;margin-top: 0;}
 	.feat_property.all_listing_style4 .thumb .thmb_cntnt2.top.right{right: 45px;top: 25px;}
@@ -500,7 +501,7 @@
 	.main-banner-wrapper .carousel-btn-block .carousel-btn.left-btn{left: auto;right: 80px;}
 	.home-four{margin-top: 1px !important;}
 	.home-one{margin-top: 0;}
-	.our-dashbord.dashbord{padding-top: 45px;}
+	.our-dashbord.dashbord{padding-top: 0px;}
 
 
 
