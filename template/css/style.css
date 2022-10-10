@@ -1220,7 +1220,7 @@ header.header-nav a.navbar_brand .logo2{
 header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing, .add_listing{
   background-color: #ffffff;
   border-radius: 3px;
-  height: 45px;  
+  height: auto;  
   position: relative;
   text-align: center;
   top: 18px;
@@ -1744,7 +1744,7 @@ header.header-nav.menu_style_home_one.style2 ul.ace-responsive-menu li.list_s{
 }
 header.header-nav.menu_style_home_one.style2 ul.ace-responsive-menu li.add_listing, .add_listing{
   background-color: #ffffff;
-  border: 1px solid #0061DF;
+  border: 1px solid transparent;
   border-radius: 3px;
   -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -6083,7 +6083,6 @@ form.listing_page_v9{
   font-size: 10px;
   font-weight: 600;
   line-height: 13px;
-  margin-left: 12px;
   padding: 6px 15px;
   text-transform: uppercase;
 }
@@ -11499,7 +11498,7 @@ textarea.form-control:focus,
 }
 .add_listing .custom-control-label{
   color: #696969;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: normal;
   justify-content: left;
   margin: 0 0 15px;
@@ -11507,6 +11506,7 @@ textarea.form-control:focus,
   padding-left: 3px;
   padding-right: 15px;
   width: 100%;
+  text-align: left;
 }
 .add_listing .custom-control-label::before {
   border: 2px solid #E6E9EC;
@@ -12753,7 +12753,7 @@ textarea.form-control:focus,
 .ed_menu_list ul{
   margin-bottom: 0;
 }
-.ed_menu_list ul li a{
+.ed_menu_list ul li a {
   border-radius: 3px;
   color: #0D263B;
   display: block;
@@ -12767,6 +12767,22 @@ textarea.form-control:focus,
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
+.ed_menu_list ul li a ul li a {
+  border-radius: 3px;
+  color: #0D263B;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 0 30px;
+  padding: 15px 15px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 .ed_menu_list ul li a span{
   color: #0061DF;
   font-size: 18px;
@@ -19196,12 +19212,12 @@ button.gm-ui-hover-effect:focus {
 }
 .invoice_table .table th{
   color: #0D263B;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
 }
 .invoice_table .table th,
 .invoice_table .table td{
-  padding: 30px 13px;
+  padding: 30px 7px;
 }
 .invoice_table .table td{
   color: #696969;

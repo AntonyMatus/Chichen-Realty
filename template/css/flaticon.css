@@ -20,6 +20,9 @@
 .flaticon-button:before {
     content: "\f101";
 }
+.flaticon-close:before { 
+    content: "\f154"; 
+}
 .flaticon-button:before {
     content: "\f101";
 }
@@ -61,6 +64,9 @@
 }
 .flaticon-down-arrow:before {
     content: "\f10e";
+    font-size: 10px;
+    float: right;
+
 }
 .flaticon-up-arrow:before {
     content: "\f10f";
