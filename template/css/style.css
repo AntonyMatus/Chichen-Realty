@@ -5389,7 +5389,7 @@ form.listing_page_v9{
   opacity: 1;
 }
 .feat_property .thumb{
-  background: #0D263B;
+  background: #fff;
   /*display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -6056,7 +6056,7 @@ form.listing_page_v9{
   border-radius: 3px;
   margin: 0;
   overflow: hidden;
-  width: 160px;
+  width: 133px;
 }
 .feat_property.list.favorite:hover .thumb img,
 .feat_property.list.property:hover .thumb img{
@@ -6064,7 +6064,7 @@ form.listing_page_v9{
 }
 .feat_property.list.favorite .details,
 .feat_property.list.property .details{
-  width: auto;
+  width: 320px;
 }
 .feat_property.list.favorite .details .tc_content,
 .feat_property.list.property .details .tc_content{
@@ -6547,6 +6547,21 @@ form.listing_page_v9{
   position: relative;
   text-align: center;
 }
+
+.explore_city {
+  -webkit-background-size: cover;
+  background-size: cover;
+  border: 1px solid #E6E9EC;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 170px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  padding: 30px 0;
+  position: relative;
+  text-align: center;
+}
+
 .explore_city:before {
   background-color: #ffffff;
   bottom: 0;
@@ -6560,15 +6575,18 @@ form.listing_page_v9{
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 .explore_city:before {
   background-color: rgba(13, 38, 59, .5);
 }
+
 .explore_city .details {
   bottom: 20px;
   left: 0;
   position: absolute;
   right: 0;
 }
+
 .explore_city .details .icon{
   color: #fff;
   font-size: 60px;
@@ -6576,6 +6594,8 @@ form.listing_page_v9{
 .explore_city .details .icon.style2{
   margin-bottom: 100px;
 }
+
+
 .explore_city .details p{
   color: #ffffff;
   font-size: 13px;
@@ -6588,7 +6608,8 @@ form.listing_page_v9{
   font-size: 18px;
   line-height: 23px;
 }
-.explore_city .thumb img{
+
+.explore_city .thumb img, .explore_city2 .thumb img {
   height: 250px;
   left: 0;
   position: absolute;
@@ -6606,9 +6627,15 @@ form.listing_page_v9{
   -ms-transform: scale(1.0);
   transform: scale(1.0);
 }
+
 .explore_city.style2,
 .explore_city.style2 .thumb img{
   height: 530px;
+}
+
+.explore_city.style3,
+.explore_city.style3 .thumb img {
+  height: 370px;
 }
 .for_blog.feat_property.blog_details_inner .thumb img{
   -webkit-transition: all 0.3s ease 0s;
@@ -12716,7 +12743,7 @@ textarea.form-control:focus,
   position: relative;
   z-index: 1;
 }
-.ed_menu_list {
+.ed_menu_list, #side-menu {
   background-color: #FFFFFF;
   bottom: 0;
   height: auto;
@@ -12726,7 +12753,7 @@ textarea.form-control:focus,
   overflow-y: scroll;
   padding: 20px 0 0 0;
   position: fixed;
-  top: 0;
+  top: 100px;
   width: 300px;
   z-index: 9;
   -webkit-box-shadow:0px 10px 30px rgba(13, 38, 59, 0.05);
@@ -12768,6 +12795,23 @@ textarea.form-control:focus,
   transition: all 0.3s ease 0s;
 }
 
+#side-menu li a {
+  border-radius: 3px;
+  color: #0D263B;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 0px;
+  padding: 15px 15px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+
+
 .ed_menu_list ul li a ul li a {
   border-radius: 3px;
   color: #0D263B;
@@ -12789,13 +12833,27 @@ textarea.form-control:focus,
   margin-right: 5px;
   vertical-align: middle;
 }
+
+#side-menu li a span{
+  color: #0061DF;
+  font-size: 18px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+#side-menu  li a:hover,
+#side-menu  li a.active{
+  background-color: #0061DF;
+  color: #fff;
+}
+
 .ed_menu_list ul li a:hover,
 .ed_menu_list ul li a.active{
   background-color: #0061DF;
   color: #fff;
 }
-.ed_menu_list ul li a:hover span,
-.ed_menu_list ul li a.active span{
+#side-menu  li a:hover span,
+#side-menu  li a.active span{
   color: #fff;
 }
 .our-dashbord {
@@ -14380,6 +14438,77 @@ textarea.form-control:focus,
   margin-bottom: 0;
 }
 /*== sidebar about widget ==*/
+
+.side-menu{
+  width: 240px;
+  z-index: 10;
+  background: #fff;
+  bottom: 0;
+  margin-top: 0;
+  padding-bottom: 30px;
+  position: fixed;
+  top: 70px;
+}
+
+.topbar{
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.topbar .topbar-left{
+  background: #fff;
+  float: left;
+  text-align: center;
+  height: 100px;
+  position: relative;
+  width: 300px;
+  z-index: 1;
+}
+
+.logo {
+  color: #2a3142 !important;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-custom {
+  background-color: transparent;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0 10px 0 0;
+  margin-left: 300px;
+  min-height: 70px;
+}
+
+.button-menu-mobile {
+  border: none;
+  color: #525f80;
+  display: inline-block;
+  height: 70px;
+  width: 60px;
+  background-color: #ffffff;
+  font-size: 24px;
+}
+.mdi {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.mdi-menu:before {
+  content: "\F35C";
+}
+
 .siderbar_contact_widget h4 {
   font-size: 20px;
   font-family: Cerebri Sans;
@@ -15922,6 +16051,9 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
 }
 .h150 {
   height: 150px;
+}
+.h170 {
+  height: 170px;
 }
 .h200 {
   height: 200px;

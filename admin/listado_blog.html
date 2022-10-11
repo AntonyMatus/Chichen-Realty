@@ -10,15 +10,18 @@
 <!-- css file -->
 <link rel="stylesheet" href="../template/css/bootstrap.min.css">
 <link rel="stylesheet" href="../template/css/style.css">
+<link rel="stylesheet" href="../template/css/fileuploader.css">
 <link rel="stylesheet" href="../template/css/dashbord_navitaion.css">
 <!-- Responsive stylesheet -->
 <link rel="stylesheet" href="../template/css/responsive.css">
 <link rel="stylesheet" href="../template/css/metismenu.min.css">
 <!-- Title -->
-<title>Desarrollos Exclusivos - Chichen Realty</title>
+<title>Listado Blog - Chichen Realty</title>
 <!-- Favicon -->
 <link href="../template/images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
 <link href="../template/images/favicon.ico" sizes="128x128" rel="shortcut icon" />
+<link rel="stylesheet" href="../template/css/flaticon.css">
+
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,36 +33,96 @@
 <body>
 <div class="wrapper">
 	<div class="preloader"></div>
+    <div class="topbar">
 
-	
-
-	<!-- Our Dashbord -->
-	<div class="extra-dashboard-menu dn-lg bgc-alice-blue">
-		<div class="ed_menu_list">
-            <a href="index.html">
-                <img class="nav_logo_img img-fluid m50" src="../template/images/logos/Recurso 2.svg" alt="header-logo.svg">
-            </a>
+        <!-- LOGO -->
+            <div class="topbar-left">
+                <a href="index.php" class="logo">
+                    <span>
+                        <img src="../template/images/logos/Recurso 2.svg" alt="" width="120" height="120">
+                    </span>
+                    
+                </a>
+            </div>
+        
+            <nav class="navbar-custom">
+        
                 
-			<ul id="ed_menu_list" >
-				<li><a href="index.html"><span class="flaticon-dashboard"></span> Dashboard</a></li>
-				<li><a href="page-dashboard-property.html"><span class="flaticon-house"></span> Slider Inicio</a></li>
-				<li>
-					<a class="active" href="#" aria-expanded="true" ><span class="flaticon-button"></span> Desarrollos Exclusivos <span class="flaticon-down-arrow"></span> </a>
-					<ul aria-expanded="true">
-						<li><a class="text-center " href="#">Listado de Desarrollos</a></li>
-					</ul>
-				</li>
-				<li><a href="propiedades_premium.html" aria-expanded="false"><span class="flaticon-heart-shape-outline"></span> Propiedades Premium</a></li>
-				<li><a href="page-dashboard-save-search.html"><span class="flaticon-magnifiying-glass"></span>  Blog</a></li>
-				<li><a href="page-dashboard-invoices.html"><span class="flaticon-invoice"></span> Propiedades Destacadas</a></li>
-				<li><a href="page-dashboard-message.html"><span class="flaticon-mail-inbox-app"></span> Asesores</a></li>
-				<li><a href="page-dashboard-logout.html"><span class="flaticon-logout"></span> Usuarios</a></li>
-				<li><a href="page-dashboard-logout.html"><span class="flaticon-logout"></span> Newsletter</a></li>
-				<li><a href="page-dashboard-logout.html"><span class="flaticon-logout"></span> Cerrar Sesión</a></li>
-			</ul>
-		</div>
-	</div>
+        
+            </nav>
+        
+    </div>
 
+    <div class="left side-menu">
+        <div class="slimscroll-menu" id="remove-scroll">
+    
+            <!--- Sidemenu -->
+            <div id="sidebar-menu">
+                <!-- Left Menu Start -->
+                <ul class="metismenu" id="side-menu">
+                    
+                    
+                    
+                    <li>
+                        <a href="index.html" class="waves-effect"><span class="flaticon-user"></span> Dashboard </a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-house"></span> Slider Inicio </a>
+                       
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-button"></span> Desarrollos Exclusivos <span class="flaticon-down-arrow"></span> </a>
+                        <ul class="submenu">
+                            <li><a class="text-center" href="desarrollo_exclusivo.html">Listado de Desarrollos</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-heart-shape-outline"></span> Propiedades Premium <span class="flaticon-down-arrow"></span> </a>
+                        <ul class="submenu">
+                            <li><a class="text-center" href="propiedades_premium.html">Listado de Propiedades</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="active" >
+                        <a href="#" class="waves-effect active"><span class="flaticon-magnifiying-glass"></span> Blog </a>
+                        <ul class="submenu">
+                            <li><a class="text-center" href="propiedades_premium.html">Listado de Articulos</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-invoice"></span> Propiedades Destacadas </a>
+                       
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-mail-inbox-app"></span> Asesores </a>
+                       
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-logout"></span> Usuarios </a>
+                       
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-logout"></span> Newsletter </a>
+                       
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-logout"></span> Cerrar Sesión </a>
+                       
+                    </li>
+    
+    
+                </ul>
+    
+            </div>
+            <!-- Sidebar -->
+            <div class="clearfix"></div>
+    
+        </div>
+    </div>
 	<!-- Our Dashbord -->
 	<section class="our-dashbord dashbord bgc-alice-blue">
 		<div class="container-fluid">
@@ -67,51 +130,25 @@
 				<div class="col-xl-2 dn-lg pl0"></div>
 				<div class="col-xl-10">
 					<div class="row">
-						<div class="col-lg-12">
-							<div class="dashboard_navigationbar dn db-lg mt50">
-								<div class="dropdown">
-									<button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars pr10"></i> Dashboard Navigation</button>
-									<ul id="myDropdown" class="dropdown-content">
-                                        
-										<li><a href="index.html"><span class="flaticon-dashboard"></span> Dashboard</a></li>
-										<li><a href="page-dashboard-property.html"><span class="flaticon-house"></span> Slider Inicio</a></li>
-										<li><a class="active" href="#"><span class="flaticon-button"></span> Desarrollos Exclusivos</a>
-											
-										</li>
-										<li><a href="propiedades_premium.html"><span class="flaticon-heart-shape-outline"></span> Propiedades Premium</a></li>
-										<li><a href="page-dashboard-save-search.html"><span class="flaticon-magnifiying-glass"></span> Blog</a></li>
-										<li><a href="page-dashboard-invoices.html"><span class="flaticon-invoice"></span> Propiedades Destacadas</a></li>
-
-										<li><a href="page-dashboard-message.html"><span class="flaticon-mail-inbox-app"></span> Asesores</a></li>
-                                        <li><a href="page-dashboard-logout.html"><span class="flaticon-logout"></span> Usuarios</a></li>
-                                        <li><a href="page-dashboard-logout.html"><span class="flaticon-logout"></span> Newsletter</a></li>
-                                        <li><a href="page-dashboard-logout.html"><span class="flaticon-logout"></span> Cerrar Sesión</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
 						<div class="col-lg-12 mb50">
                             <div class="row d-flex justify-content-between pr20">
                                 <div class="breadcrumb_content">
-                                    <h2 class="breadcrumb_title">Listado de Desarrollos Exclusivos </h2>
-                                    <p>Desarrollos exlcusivos Chichen Realty MasterBroker</p>
+                                    <h2 class="breadcrumb_title">Listado de Blog</h2>
+                                    <p>Listado de Blog</p>
                                 </div>
-                                <div class="">
-                                    <img src="../template/images/logos/Recurso 4.svg"  height="70" alt="">
-                                </div>
+                                
                             </div>
 							
 						</div>
 					</div>
                     <div class="row">
-						
 						<div class="col-lg-12">
 							<div class="invoice_table property table-responsive">
 								<div class="heading_selector posr bgc-white">
 									<div class="float-right fn-sm">
 										<ul class="mb0">
 											<li class="list-inline-item">
-												<a href="create_desarrollo_exclusivo.html" class="btn btn-white"><span class="icon flaticon-button"></span><span class="dn-lg">Nuevo desarrollo exclusivo</span></a>
+												<a href="create_articulo.html" class="btn btn-white"><span class="icon flaticon-button"></span><span class="dn-lg">Nuevo artículo de blog</span></a>
 											</li>
 										</ul>
 									</div>
@@ -136,7 +173,7 @@
 											<li class="list-inline-item">
 												<div class="search_field property">
 													<form class="form-inline">
-											    	<input class="form-control" type="search" placeholder="Buscar un Desarrollo Exclusivo" aria-label="Search">
+											    	<input class="form-control" type="search" placeholder="Buscar un Artículo" aria-label="Search">
 											    </form>
 												</div>
 											</li>
@@ -146,10 +183,10 @@
 								<table class="table table-borderless">
 								  <thead class="thead-light">
 								    <tr>
-								      <th scope="col">Nombre de Desarrollo</th>
+								      <th scope="col">Título de Blog</th>
 								      <th scope="col">Fecha de Publicación</th>
 								      <th scope="col">Status</th>
-								      <th scope="col">% Vendido</th>
+								      <th scope="col">Categoría</th>
 								      <th scope="col">Opciones</th>
 								    </tr>
 								  </thead>
@@ -157,23 +194,23 @@
 								    <tr>
                                         <th scope="row">
                                             <div class="feat_property list property d-flex">
-                                                <div class="thumb"> <img class="img-whp" src="../template/images/listing/s1.png" alt="s1.png">
+                                                <div class="thumb"> <img class="img-whp" src="../template/images/listing/s1.png" alt="s1.png" height="140">
                                                 <div class="thmb_cntnt">
                                                     
                                                 </div>
                                                 </div>
-                                                <div class="details mt30 ml10">
+                                                <div class="details ml10">
                                                 <div class="tc_content">
-                                                    <h4 class="title">ALKIMYA</h4>
-                                                    <p>{Dirección del Desarrollo}</p>
+                                                    <h4 class="title">Título de Blog</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ligula eu lectus vulputate porttitor sed feugiat nunc. Mauris ac consectetur ante, dapibus gravida </p>
                                                     
                                                 </div>
                                                 </div>
                                             </div>
                                         </th>
-                                        <td>25 Octubre 2021</td>
+                                        <td>30 December 2021</td>
                                         <td class="pending_color">No publicado</td>
-                                        <td class="text-center">95%</td>
+                                        <td class="">Bienes Raices</td>
                                         <td class="editing_list">
                                             <ul>
                                                 <li class="list-inline-item">
@@ -188,21 +225,21 @@
 								    <tr>
                                         <th scope="row">
                                             <div class="feat_property list property  d-flex">
-                                                <div class="thumb"> <img class="img-whp" src="../template/images/listing/s1.png" alt="s1.png">
+                                                <div class="thumb"> <img class="img-whp" src="../template/images/listing/s1.png" alt="s1.png" height="140">
                                                 
                                                 </div>
-                                                <div class="details mt30 ml10">
+                                                <div class="details  ml10">
                                                 <div class="tc_content">
-                                                    <h4 class="title">SARIA LIFESTYLE APARTMENTS</h4>
-                                                    <p>{Dirección del Desarrollo}</p>
+                                                    <h4 class="title">Título de Blog</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ligula eu lectus vulputate porttitor sed feugiat nunc. Mauris ac consectetur ante, dapibus gravida </p>
                                                     
                                                 </div>
                                                 </div>
                                             </div>
                                         </th>
-                                        <td>05 Septiembre 2021</td>
+                                        <td>30 December 2021</td>
                                         <td class="text-thm">Publicado</td>
-                                        <td>100%</td>
+                                        <td>Bienes Raices</td>
 								    	<td class="editing_list">
 								    		<ul>
 								    			<li class="list-inline-item">
@@ -217,21 +254,21 @@
 								    <tr>
                                             <th scope="row">
                                                 <div class="feat_property list property  d-flex">
-                                                    <div class="thumb"> <img class="img-whp" src="../template/images/listing/s1.png" alt="s1.png">
+                                                    <div class="thumb"> <img class="img-whp" src="../template/images/listing/s1.png" alt="s1.png" height="140">
                                                     
                                                     </div>
-                                                    <div class="details mt30 ml10">
+                                                    <div class="details  ml10">
                                                     <div class="tc_content">
-                                                        <h4 class="title">DLUX SOLUNA </h4>
-                                                        <p>{Dirección del Desarrollo}</p>
-                                                        
+                                                        <h4 class="title">Título de Blog</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ligula eu lectus vulputate porttitor sed feugiat nunc. Mauris ac consectetur ante, dapibus gravida </p>
+                                                    
                                                     </div>
                                                     </div>
                                                 </div>
                                             </th>
-                                            <td>04 de Febrero del 2021</td>
+                                            <td>30 December 2021</td>
                                             <td class="pending_color">No Publicado</td>
-                                            <td>80%</td>
+                                            <td>Bienes Raices</td>
                                             <td class="editing_list">
                                                 <ul>
                                                     <li class="list-inline-item">
@@ -299,15 +336,17 @@
 <script src="../template/js/timepicker.js"></script>
 <script src="../template/js/wow.min.js"></script>
 <script src="../template/js/dashboard-script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM&callback=initMap"></script>
+<script src="../template/js/googlemaps1.js"></script>
 <!-- Custom script for all pages --> 
 <script src="../template/js/script.js"></script>
 <script src="../template/js/metisMenu.min.js"></script>
+<script src="../template/js/jquery.slimscroll.js"></script>
 <script>
 	$(function() {
-		$('#ed_menu_list').metisMenu({
-			toggle: false // disable the auto collapse. Default: true.
-		});
+		$("#side-menu").metisMenu();
 	});
+
 </script>
 </body>
 </html>
