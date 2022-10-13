@@ -501,7 +501,7 @@
 	.main-banner-wrapper .carousel-btn-block .carousel-btn.left-btn{left: auto;right: 80px;}
 	.home-four{margin-top: 1px !important;}
 	.home-one{margin-top: 0;}
-	.our-dashbord.dashbord{padding-top: 0px;}
+	.our-dashbord.dashbord{padding-top: 0px; margin-top: 70px;}
 
 
 
@@ -1183,6 +1183,23 @@
 
 }
 @media only screen and (max-width:414px){
+	.topbar-left { display: none; }
+	.navbar-custom {
+		margin-left: 0 !important;
+	}
+	.side-menu {
+		z-index: 10 !important;
+	}
+	.navbar-custom{ background-color: white;}
+
+	.enlarged .left.side-menu {
+		margin-left: -70px;
+	}
+	.enlarged #side-menu {
+		display: none;
+	}
+
+	.justify { text-align: center; justify-content: center;}
 	.mt10-414{margin-top: 10px;}
 	.fn-414{float: none !important;}
 	.dn-414{display: none !important;}

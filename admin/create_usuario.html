@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="../template/css/responsive.css">
 <link rel="stylesheet" href="../template/css/metismenu.min.css">
 <!-- Title -->
-<title>Propiedades Destacadas - Chichen Realty</title>
+<title>Nuevo Usuario - Chichen Realty</title>
 <!-- Favicon -->
 <link href="../template/images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
 <link href="../template/images/favicon.ico" sizes="128x128" rel="shortcut icon" />
@@ -33,10 +33,6 @@
 <body>
 <div class="wrapper">
 	<div class="preloader"></div>
-
-	
-
-	
     <div class="topbar">
 
         <!-- LOGO -->
@@ -94,16 +90,16 @@
                         <a href="listado_blog.html" class="waves-effect"><span class="flaticon-magnifiying-glass"></span> Blog </a>
                        
                     </li>
-                    <li class="active">
-                        <a   href="propiedades_destacadas.html" class="waves-effect active"><span class="flaticon-invoice"></span> Propiedades Destacadas </a>
+                    <li>
+                        <a href="propiedades_destacadas.html" class="waves-effect"><span class="flaticon-invoice"></span> Propiedades Destacadas </a>
                        
                     </li>
                     <li>
                         <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-mail-inbox-app"></span> Asesores </a>
                        
                     </li>
-                    <li>
-                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-logout"></span> Usuarios </a>
+                    <li class="active">
+                        <a href="javascript:void(0);" class="waves-effect active"><span class="flaticon-logout"></span> Usuarios </a>
                        
                     </li>
                     <li>
@@ -157,7 +153,7 @@
 						<div class="col-lg-12 mb50">
                             <div class="row d-flex justify-content-between pr20">
                                 <div class="breadcrumb_content">
-                                    <h2 class="breadcrumb_title">Propiedades Destacadas - Página Inicio </h2>
+                                    <h2 class="breadcrumb_title">Nuevo Usuario </h2>
                                     <p>Chichen Realty </p>
                                 </div>
                                
@@ -168,64 +164,46 @@
                     <div class="row">
 						<div class="col-lg-12">
                             <div class="new_property_form">
-								<div class="row mt50-md">
-                                    <div class="col-md-7 col-lg-5 col-xl-5">
-                                        <div class="explore_city2 style3">
-                                            <div class="thumb"><img class="img-fluid" src="template/images/service/4.jpg" alt="4.jpg"></div>
-                                            <div class="details">
-                                            <div class="icon style2"><span class="flaticon-villa"></span></div>
-                                            </div>
+								<h4 class="title mb30">Información General</h4>
+								<form class="contact_form" name="contact_form" action="#" method="post" novalidate>
+								<div class="row">
+									<div class="col-md-6">
+                                        <div class="form-group mb30">
+                                            <label class="font-weight-bold"  for="titulo">Nombre Completo</label>
+                                            <input name="form_name" class="form-control form_control" type="text" placeholder="Nombre">
                                         </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-4 col-xl-3">
-                                        <div class="explore_city2 style3">
-                                            <div class="thumb"><img class="img-fluid" src="template/images/service/3.jpg" alt="3.jpg"></div>
-                                            <div class="details">
-                                            <div class="icon style2"><span class="flaticon-home"></span></div>
-                                            </div>
+									</div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb30">
+                                            <label class="font-weight-bold"  for="titulo">Usuario</label>
+                                            <input name="form_user" class="form-control form_control" type="text" placeholder="hola@chichenrealty.com">
                                         </div>
-                                    </div>
+									</div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb30">
+                                            <label class="font-weight-bold"  for="titulo">Contraseña</label>
+                                            <input name="form_password" class="form-control form_control" type="password" >
+                                        </div>
+									</div>
                                     
-                                    <div class="col-md-5 col-lg-3 col-xl-4">
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="explore_city2 custom_class_service float-left ">
-                                                    <div class="thumb"><img class="img-fluid" src="template/images/service/1.jpg" alt="1.jpg"></div>
-                                                    <div class="details">
-                                                    <div class="icon"><span class="flaticon-home"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="explore_city2 custom_class_service float-left">
-                                                    <div class="thumb"><img class="img-fluid" src="template/images/service/2.jpg" alt="1.jpg"></div>
-                                                    <div class="details">
-                                                    <div class="icon"><span class="flaticon-home"></span></div>
-                                                    </div>
-                                                </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb30">
+                                            <label class="font-weight-bold" for="name">Tipo de rol</label>
+                                            <div class="ui_kit_select_search add_new_property mb30">
+                                                <select class="selectpicker" data-live-search="true" data-width="100%">
+                                                    <option data-tokens="roger">Administrativo</option>
+                                                    <option data-tokens="roger">Super administrativo</option>
+                                                    <option data-tokens="roger">Marketing</option>
+                                                </select>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="explore_city2 custom_class_service float-left">
-                                                    <div class="thumb"><img class="img-fluid" src="template/images/service/1.jpg" alt="1.jpg"></div>
-                                                    <div class="details">
-                                                    <div class="icon"><span class="flaticon-apartment"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="explore_city2 custom_class_service float-left">
-                                                    <div class="thumb"><img class="img-fluid" src="template/images/service/2.jpg" alt="1.jpg"></div>
-                                                    <div class="details">
-                                                    <div class="icon"><span class="flaticon-apartment"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+									</div>
+								</div>
+								</form>
 							</div>
+                            <div class="text-right">
+								<a class="text-uppercase btn btn-thm listing_save_btn" href="#">Crear usuario</a>
+	                        </div>
                         </div>
 					</div>
 					

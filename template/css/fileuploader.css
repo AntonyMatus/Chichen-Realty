@@ -5,6 +5,12 @@
   position: relative;
   width: 200px;
 }
+.upload_file_input_add_remove2{
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+}
 .btn_upload {
   background-color: transparent;
   border: 1px solid #0061DF;

@@ -28,6 +28,13 @@ Tag: advanced search, agency, agent, classified, directory, google maps, house, 
 /* Table of contents */
 
 
+
+
+
+
+
+
+
 /*== Typography ==*/
 /* Search Overlay */
 /*== Header Top Style ==*/
@@ -12865,13 +12872,76 @@ textarea.form-control:focus,
   padding: 20px 0 0 0;
   position: fixed;
   top: 100px;
-  width: 300px;
   z-index: 9;
   -webkit-box-shadow:0px 10px 30px rgba(13, 38, 59, 0.05);
   -moz-box-shadow:0px 10px 30px rgba(13, 38, 59, 0.05);
   -o-box-shadow:0px 10px 30px rgba(13, 38, 59, 0.05);
   box-shadow:0px 10px 30px rgba(13, 38, 59, 0.05);
 }
+
+
+.enlarged .side-menu {
+  position: absolute;
+}
+.enlarged .slimScrollDiv {
+  overflow: inherit !important;
+}
+
+.enlarged .slimScrollBar {
+  visibility: hidden;
+}
+
+.enlarged .wrapper .navbar-custom {
+  margin-left: 70px;
+}
+
+.enlarged .wrapper .topbar .topbar-left {
+  width: 70px !important;
+}
+
+
+
+.enlarged .wrapper .topbar .topbar-left .logo i {
+  display: block;
+  line-height: 70px;
+  color: #7a6fbe !important;
+}
+
+.enlarged .wrapper .left.side-menu {
+  width: 70px;
+}
+
+.enlarged .wrapper .left.side-menu #sidebar-menu ul > li > a .title {
+  display: none;
+  padding-left: 10px;
+}
+
+.enlarged .wrapper .left.side-menu #sidebar-menu ul > li > a .flaticon-down-arrow {
+  display: none;
+  padding-left: 10px;
+}
+
+.enlarged .wrapper .left.side-menu #sidebar-menu ul > li > ul > li > a {
+  display: none;
+  padding-left: 10px;
+}
+
+.enlarged #side-menu li a span {
+  font-size: 24px;
+  margin-right: 20px !important;
+}
+
+
+#side-menu li a .title{
+  color: #0D263B;
+  font-size: 14px;
+}
+
+
+#sidebar-menu {
+    padding-top: 10px;
+}
+
 .ed_menu_list::-webkit-scrollbar {
   margin-top: 15px;
   margin-right: 10px;
@@ -12951,6 +13021,9 @@ textarea.form-control:focus,
   margin-right: 5px;
   vertical-align: middle;
 }
+
+
+
 
 #side-menu  li a:hover,
 #side-menu  li a.active{
@@ -14569,13 +14642,17 @@ textarea.form-control:focus,
   z-index: 999;
 }
 
+.justify {
+  justify-content: space-between ;
+}
+
 .topbar .topbar-left{
   background: #fff;
   float: left;
   text-align: center;
   height: 100px;
   position: relative;
-  width: 300px;
+  width: 240px;
   z-index: 1;
 }
 
@@ -14602,7 +14679,7 @@ textarea.form-control:focus,
   display: inline-block;
   height: 70px;
   width: 60px;
-  background-color: #ffffff;
+  background-color: transparent;
   font-size: 24px;
 }
 .mdi {
@@ -16650,6 +16727,9 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
 
 .pl5 {
   padding-left: 5px; }
+.pl7{
+  padding-left: 7px;
+}
 
 .pl10 {
   padding-left: 10px; }
@@ -19504,6 +19584,16 @@ button.gm-ui-hover-effect:focus {
   padding: 30px 7px;
 }
 
+.ajustar{
+  width: 160px;
+  display: inline-flex;
+  /* margin-left: 40px; */
+}
+.ajustar2{
+  width: 200px;
+  display: inline-flex;
+}
+
 .invoice_table .table th.th2,
 .invoice_table .table td{
   padding: 30px 0px;
@@ -19513,6 +19603,7 @@ button.gm-ui-hover-effect:focus {
   color: #696969;
   font-size: 14px;
   line-height: 18px;
+  padding-left: 7px;
 }
 .invoice_table.property .table td{
   vertical-align: middle;
