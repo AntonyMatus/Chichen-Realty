@@ -6687,10 +6687,16 @@ form.listing_page_v9{
   right: 0;
 }
 
-.explore_city2 .details .icon{
+.explore_city2 .details .icon {
   color: #fff;
   font-size: 60px;
 }
+
+.explore_city2 .details .icon a {
+  color: #fff;
+  font-size: 60px;
+}
+
 .explore_city2 .details .icon.style2{
   margin-bottom: 100px;
 }

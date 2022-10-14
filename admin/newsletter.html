@@ -50,13 +50,18 @@
             </div>
         
             <nav class="navbar-custom">
-        
-                
-        
+                <ul class="list-inline menu-left mb-0">
+                    <li class="float-left">
+                        <button class="button-menu-mobile open-left waves-effect">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+                    </li>
+                </ul>
             </nav>
         
     </div>
 
+    
     <div class="left side-menu">
         <div class="slimscroll-menu" id="remove-scroll">
     
@@ -68,53 +73,50 @@
                     
                     
                     <li>
-                        <a href="index.html" class="waves-effect"><span class="flaticon-user"></span> Dashboard </a>
+                        <a href="index.html" class="waves-effect"><span class="flaticon-user"></span> <span class="title">Dashboard</span>  </a>
                         
                     </li>
                     
                     <li>
-                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-house"></span> Slider Inicio </a>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-house"></span> <span class="title"> Slider Inicio </span></a>
                        
                     </li>
                     <li>
-                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-button"></span> Desarrollos Exclusivos <span class="flaticon-down-arrow"></span> </a>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-button"></span> <span class="title">Desarrollos Exclusivos</span>  <span class="flaticon-down-arrow"></span> </a>
                         <ul class="submenu">
                             <li><a class="text-center" href="desarrollo_exclusivo.html">Listado de Desarrollos</a></li>
                             
                         </ul>
                     </li>
                     <li >
-                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-heart-shape-outline"></span> Propiedades Premium <span class="flaticon-down-arrow"></span> </a>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-heart-shape-outline"></span> <span class="title"> Propiedades Premium</span> <span class="flaticon-down-arrow"></span> </a>
                         <ul class="submenu">
                             <li><a class="text-center" href="propiedades_premium.html">Listado de Propiedades</a></li>
                             
                         </ul>
                     </li>
                     <li>
-                        <a href="listado_blog.html" class="waves-effect"><span class="flaticon-magnifiying-glass"></span> Blog </a>
+                        <a href="listado_blog.html" class="waves-effect"><span class="flaticon-magnifiying-glass"></span> <span class="title">Blog</span>  </a>
                        
                     </li>
                     <li>
-                        <a href="propiedades_destacadas.html" class="waves-effect"><span class="flaticon-invoice"></span> Propiedades Destacadas </a>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-invoice"></span> <span class="title">Propiedades Destacadas</span>  </a>
+                       
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-mail-inbox-app"></span> <span class="title">Asesores</span>  </a>
                        
                     </li>
                     <li >
-                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-mail-inbox-app"></span> Asesores <span class="flaticon-down-arrow"></span> </a>
-                        <ul class="submenu">
-                            <li><a class="text-center" href="propiedades_premium.html">Listado de Asesores</a></li>
-                            
-                        </ul>
-                    </li>
-                    <li >
-                        <a href="#" class="waves-effect "><span class="flaticon-logout"></span> Usuarios </a>
+                        <a href="usuarios.html" class="waves-effect "><span class="flaticon-logout"></span> <span class="title">Usuarios</span>  </a>
                        
                     </li>
                     <li class="active">
-                        <a href="newsletter.html" class="waves-effect active"><span class="flaticon-logout"></span> Newsletter </a>
+                        <a href="#" class="waves-effect active"><span class="flaticon-logout"></span> <span class="title">Newsletter</span>  </a>
                        
                     </li>
                     <li>
-                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-logout"></span> Cerrar Sesión </a>
+                        <a href="javascript:void(0);" class="waves-effect"><span class="flaticon-logout"></span> <span class="title">Cerrar Sesión</span>  </a>
                        
                     </li>
     
@@ -127,6 +129,7 @@
     
         </div>
     </div>
+
 	<!-- Our Dashbord -->
 	<section class="our-dashbord dashbord bgc-alice-blue">
 		<div class="container-fluid">
@@ -301,6 +304,21 @@
 <script>
 	$(function() {
 		$("#side-menu").metisMenu();
+
+        $('.button-menu-mobile').on('click', function (event) {
+            event.preventDefault();
+            $("body").toggleClass("enlarged");
+        });
+
+        $('.slimscroll-menu').slimscroll({
+            height: 'auto',
+            position: 'right',
+            size: "5px",
+            color: '#9ea5ab',
+            wheelStep: 5,
+            touchScrollStep: 50
+        });
+
 	});
 
 </script>
